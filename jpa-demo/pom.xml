@@ -18,7 +18,7 @@
 	</parent>
 	<!-- SCM Release Configuration  -->
 	<scm>
-	<developerConnection>scm:git:[fetch=]https://github.com/Reactoo/Reacto-Services/tree/master/jpa-demo[push=]https://github.com/Reactoo/Reacto-Services/tree/Realease</developerConnection>
+	<developerConnection>scm:git:[fetch=]https://github.com/Reactoo/Reacto-Services/tree/master/jpa-demo[push=]https://github.com/Reactoo/Reacto-Services.git</developerConnection>
 	  <tag>0.0.1-GA-TAG</tag>
   </scm>
 	<properties>
