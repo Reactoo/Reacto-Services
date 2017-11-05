@@ -4,7 +4,7 @@
 
 	<groupId>com.reacto.jpademo</groupId>
 	<artifactId>jpa-demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-GA-REALEASE</version>
 	<packaging>jar</packaging>
 
 	<name>jpa-demo</name>
@@ -19,7 +19,7 @@
 	<!-- SCM Release Configuration  -->
 	<scm>
 	<developerConnection>scm:git:[fetch=]https://github.com/Reactoo/Reacto-Services/tree/master/jpa-demo[push=]https://github.com/Reactoo/Reacto-Services/tree/Realease</developerConnection>
-	  <tag>jpa-demo-0.0.1</tag>
+	  <tag>0.0.1-GA-TAG</tag>
   </scm>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
