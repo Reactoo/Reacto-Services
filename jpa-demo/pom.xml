@@ -17,7 +17,10 @@
 		<version>1.5.8.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
+	<!-- SCM Release Configuration  -->
+	<scm>
+	<developerConnection>scm:git:[fetch=]https://github.com/Reactoo/Reacto-Services/tree/master/jpa-demo[push=]https://github.com/Reactoo/Reacto-Services/tree/Realease</developerConnection>
+	</scm>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -48,6 +51,14 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-release-plugin</artifactId>
+		        <version>2.5.3</version>
+		        <configuration>
+		        <tagBase>https://github.com/Reactoo/Reacto-Services/releases</tagBase>
+		        </configuration>
+      		</plugin>
 		</plugins>
 	</build>
 
